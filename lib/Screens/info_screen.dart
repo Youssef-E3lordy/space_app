@@ -5,7 +5,8 @@ class InfoScreen extends StatelessWidget {
   Map<int, Map<String, dynamic>> planets = {
     1: {
       "Title": "Earth: Our Blue Marble",
-      "About": "Earth is the only known planet in the universe that supports life. Its unique combination of factors, including liquid water, a breathable atmosphere, and a suitable distance from the Sun, has created the ideal conditions for the development of complex organisms. Earth's magnetic field protects it from harmful solar radiation, and its atmosphere helps to regulate temperature and weather patterns.",
+      "About":
+          "Earth is the only known planet in the universe that supports life. Its unique combination of factors, including liquid water, a breathable atmosphere, and a suitable distance from the Sun, has created the ideal conditions for the development of complex organisms. Earth's magnetic field protects it from harmful solar radiation, and its atmosphere helps to regulate temperature and weather patterns.",
       "Distance from Sun (km)": "149598026 million km",
       "Length of Day (hours)": "23.93",
       "Orbital Period (Earth years)": "1",
@@ -16,7 +17,8 @@ class InfoScreen extends StatelessWidget {
     },
     2: {
       "Title": "Mars: The Red Planet",
-      "About": "Mars, often called the Red Planet due to its reddish hue caused by iron oxide, is a cold, rocky world with a thin atmosphere. It has polar ice caps, ancient riverbeds, and evidence of past volcanic activity, suggesting that it once had a warmer, wetter climate. Mars is a prime target for exploration due to its potential for past or present life, and NASA's Perseverance rover is currently searching for signs of ancient microbial life on the planet's surface.",
+      "About":
+          "Mars, often called the Red Planet due to its reddish hue caused by iron oxide, is a cold, rocky world with a thin atmosphere. It has polar ice caps, ancient riverbeds, and evidence of past volcanic activity, suggesting that it once had a warmer, wetter climate. Mars is a prime target for exploration due to its potential for past or present life, and NASA's Perseverance rover is currently searching for signs of ancient microbial life on the planet's surface.",
       "Distance from Sun (km)": "227943824 km",
       "Length of Day (hours)": "24.62",
       "Orbital Period (Earth years)": "1.88",
@@ -27,7 +29,8 @@ class InfoScreen extends StatelessWidget {
     },
     3: {
       "Title": "Saturn: The Ringed Planet",
-      "About": "Saturn is best known for its spectacular rings, which are composed of countless ice particles and rocks. It is a gas giant with a composition similar to Jupiter, but its rings and moons give it a distinct appearance. Saturn's largest moon, Titan, has a thick atmosphere and is the only known celestial body outside of Earth with liquid lakes and rivers.",
+      "About":
+          "Saturn is best known for its spectacular rings, which are composed of countless ice particles and rocks. It is a gas giant with a composition similar to Jupiter, but its rings and moons give it a distinct appearance. Saturn's largest moon, Titan, has a thick atmosphere and is the only known celestial body outside of Earth with liquid lakes and rivers.",
       "Distance from Sun (km)": "1426666422 km",
       "Length of Day (hours)": "10.66",
       "Orbital Period (Earth years)": "29.46",
@@ -38,7 +41,8 @@ class InfoScreen extends StatelessWidget {
     },
     4: {
       "Title": "Jupiter: The Gas Giant",
-      "About": "Jupiter is the largest planet in our solar system, a gas giant composed primarily of hydrogen and helium. Its Great Red Spot, a massive storm that has been raging for centuries, is a testament to its turbulent atmosphere. Jupiter has a strong magnetic field and numerous moons, including Europa, which is believed to have a subsurface ocean that could potentially harbor life.",
+      "About":
+          "Jupiter is the largest planet in our solar system, a gas giant composed primarily of hydrogen and helium. Its Great Red Spot, a massive storm that has been raging for centuries, is a testament to its turbulent atmosphere. Jupiter has a strong magnetic field and numerous moons, including Europa, which is believed to have a subsurface ocean that could potentially harbor life.",
       "Distance from Sun (km)": "778547669 km",
       "Length of Day (hours)": "9.92",
       "Orbital Period (Earth years)": "11.86",
@@ -49,7 +53,8 @@ class InfoScreen extends StatelessWidget {
     },
     5: {
       "Title": "Mercury: The Closest Planet",
-      "About": "Mercury is the smallest planet in our Solar System and the one closest to the Sun. Despite its small size, Mercury has a dense, rocky body with a large metallic core, which makes it very heavy for its size. A year on Mercury (one orbit around the Sun) takes only 88 Earth days, making it the fastest planet in terms of revolution.",
+      "About":
+          "Mercury is the smallest planet in our Solar System and the one closest to the Sun. Despite its small size, Mercury has a dense, rocky body with a large metallic core, which makes it very heavy for its size. A year on Mercury (one orbit around the Sun) takes only 88 Earth days, making it the fastest planet in terms of revolution.",
       "Distance from Sun (km)": "57909227 km",
       "Length of Day (hours)": "1407.6",
       "Orbital Period (Earth years)": "0.24",
@@ -60,7 +65,8 @@ class InfoScreen extends StatelessWidget {
     },
     6: {
       "Title": "Uranus: The Tilted Planet",
-      "About": "Uranus is an ice giant with a unique axial tilt, causing its seasons to be extreme. It is surrounded by faint rings and has numerous moons, including Miranda, known for its chaotic terrain. Uranus's atmosphere is composed primarily of hydrogen, helium, and methane, giving it a pale blue color.",
+      "About":
+          "Uranus is an ice giant with a unique axial tilt, causing its seasons to be extreme. It is surrounded by faint rings and has numerous moons, including Miranda, known for its chaotic terrain. Uranus's atmosphere is composed primarily of hydrogen, helium, and methane, giving it a pale blue color.",
       "Distance from Sun (km)": "2870990000 km",
       "Length of Day (hours)": "17.24",
       "Orbital Period (Earth years)": "84.01",
@@ -71,7 +77,8 @@ class InfoScreen extends StatelessWidget {
     },
     7: {
       "Title": "Neptune: The Distant World",
-      "About": "Neptune is the farthest planet from the Sun and is another ice giant. Its atmosphere is similar to Uranus, but it is a deeper blue color due to the presence of methane. Neptune has several moons, including Triton, which orbits the planet in a retrograde direction and is believed to be a captured Kuiper Belt object.",
+      "About":
+          "Neptune is the farthest planet from the Sun and is another ice giant. Its atmosphere is similar to Uranus, but it is a deeper blue color due to the presence of methane. Neptune has several moons, including Triton, which orbits the planet in a retrograde direction and is believed to be a captured Kuiper Belt object.",
       "Distance from Sun (km)": "4498252900 km",
       "Length of Day (hours)": "16.11",
       "Orbital Period (Earth years)": "164.8",
@@ -82,7 +89,8 @@ class InfoScreen extends StatelessWidget {
     },
     8: {
       "Title": "Venus: Earth's Toxic Twin",
-      "About": "Venus is often referred to as Earth's twin due to its similar size and composition. However, its thick atmosphere, composed primarily of carbon dioxide, traps heat, making it the hottest planet in our solar system. This greenhouse effect has created a hostile environment with temperatures hot enough to melt lead. Venus is also shrouded in a thick layer of sulfuric acid clouds, which reflect sunlight and give it a yellowish appearance.",
+      "About":
+          "Venus is often referred to as Earth's twin due to its similar size and composition. However, its thick atmosphere, composed primarily of carbon dioxide, traps heat, making it the hottest planet in our solar system. This greenhouse effect has created a hostile environment with temperatures hot enough to melt lead. Venus is also shrouded in a thick layer of sulfuric acid clouds, which reflect sunlight and give it a yellowish appearance.",
       "Distance from Sun (km)": "108209072 km",
       "Length of Day (hours)": "5832.2",
       "Orbital Period (Earth years)": "0.62",
@@ -93,7 +101,8 @@ class InfoScreen extends StatelessWidget {
     },
     9: {
       "Title": "The Sun: Our Solar System's Star",
-      "About": "The Sun is the heart of our solar system, a massive ball of plasma that provides heat, light, and energy to everything within its gravitational pull. Its immense size and temperature are fueled by nuclear fusion, a process that combines hydrogen atoms into helium, releasing vast amounts of energy. The Sun's magnetic field, which is constantly changing, influences solar activity like sunspots and solar flares, affecting space weather and potentially disrupting Earth-based technologies.",
+      "About":
+          "The Sun is the heart of our solar system, a massive ball of plasma that provides heat, light, and energy to everything within its gravitational pull. Its immense size and temperature are fueled by nuclear fusion, a process that combines hydrogen atoms into helium, releasing vast amounts of energy. The Sun's magnetic field, which is constantly changing, influences solar activity like sunspots and solar flares, affecting space weather and potentially disrupting Earth-based technologies.",
       "Distance from Sun (km)": "0 km",
       "Length of Day (hours)": "0",
       "Orbital Period (Earth years)": "0.62",
@@ -104,7 +113,7 @@ class InfoScreen extends StatelessWidget {
     },
   };
 
-  InfoScreen({super.key,required this.index});
+  InfoScreen({super.key, required this.index});
 
   @override
   Widget build(BuildContext context) {
@@ -158,7 +167,7 @@ class InfoScreen extends StatelessWidget {
                 ),
 
                 Padding(
-                  padding: const EdgeInsets.only(top: 140, right: 70,left: 20),
+                  padding: const EdgeInsets.only(top: 140, right: 70, left: 20),
                   child: Text(
                     "${planetData["Title"]}",
                     style: TextStyle(
@@ -176,7 +185,7 @@ class InfoScreen extends StatelessWidget {
                 height: 343,
                 child: Image.asset("assets/images/planet$index.png"),
               ),
-            ),  // planet
+            ), // planet
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
@@ -198,7 +207,7 @@ class InfoScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-            ),  //about
+            ), //about
 
             Padding(
               padding: const EdgeInsets.all(8.0),
@@ -210,7 +219,7 @@ class InfoScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-            ),  //Distance from Sun (km)
+            ), //Distance from Sun (km)
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
@@ -221,7 +230,7 @@ class InfoScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-            ),  //Length of Day (hours)
+            ), //Length of Day (hours)
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
@@ -232,7 +241,7 @@ class InfoScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-            ),  //Orbital Period (Earth years)
+            ), //Orbital Period (Earth years)
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
@@ -243,7 +252,7 @@ class InfoScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-            ),  //Radius (km) :
+            ), //Radius (km) :
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
@@ -254,7 +263,7 @@ class InfoScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-            ),  //
+            ), //
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
@@ -265,7 +274,7 @@ class InfoScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-            ),  //Gravity (m/s²) :
+            ), //Gravity (m/s²) :
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
@@ -276,7 +285,7 @@ class InfoScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-            ),  //Surface Area (km²) :
+            ), //Surface Area (km²) :
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
